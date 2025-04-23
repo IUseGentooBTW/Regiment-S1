@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "miscellaneous",
+  "ingredients": [
+    {
+      "item": "regiments1core:endermanjoint"
+    }
+  ],
+  "result": {
+    "item": "regiments1core:endermanpurple",
+    "count": 1
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "miscellaneous",
+  "ingredients": [
+    {
+      "item": "regiments1core:sheepvanillajoint"
+    }
+  ],
+  "result": {
+    "item": "regiments1core:sheepvanilla",
+    "count": 1
+  }
+}

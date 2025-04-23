@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "miscellaneous",
+  "ingredients": [
+    {
+      "item": "regiments1core:ogbush"
+    },
+    {
+      "item": "regiments1core:rollingpaper"
+    }
+  ],
+  "result": {
+    "item": "regiments1core:ogjoint",
+    "count": 1
+  }
+}

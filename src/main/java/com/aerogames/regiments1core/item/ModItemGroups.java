@@ -22,6 +22,16 @@ public class ModItemGroups {
                         entries.add(ModItems.SOURFUEL);
                         entries.add(ModItems.SHEEPVANILLA);
                     }).build());
+                        public static final ItemGroup JOINTS = Registry.register(Registries.ITEM_GROUP,
+                                new Identifier(RegimentS1Core.MOD_ID, "joints"),
+                                FabricItemGroup.builder().displayName(Text.translatable("itemgroup.joints"))
+                                        .icon(() -> new ItemStack(ModItems.OGJOINT)).entries((displayContext, entries) ->{
+                                            entries.add(ModItems.OGJOINT);
+                                            entries.add(ModItems.GREENRAVINEJOINT);
+                                            entries.add(ModItems.ENDERMANJOINT);
+                                            entries.add(ModItems.SHEEPVANILLAJOINT);
+                                            entries.add(ModItems.SOURJOINT);
+                    }).build());
     public static final ItemGroup METH = Registry.register(Registries.ITEM_GROUP,
             new Identifier(RegimentS1Core.MOD_ID, "meth"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.meth"))
@@ -33,6 +43,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.regiments1core"))
                     .icon(() -> new ItemStack(ModItems.PHONE)).entries((displayContext, entries) ->{
                         entries.add(ModItems.PHONE);
+                        entries.add(ModItems.ROLLINGPAPER);
                         entries.add(ModBlocks.TESTBLOCK);
                         entries.add(ModBlocks.TESTBENCH);
                         entries.add(ModBlocks.GROWTENT);

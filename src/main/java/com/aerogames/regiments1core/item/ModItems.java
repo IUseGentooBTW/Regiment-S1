@@ -14,10 +14,21 @@ public class ModItems {
     public static final Item OGBUSH = registerItem("ogbush", new Item(new FabricItemSettings()));
     public static final Item METH = registerItem("meth", new Item(new FabricItemSettings()));
     public static final Item PHONE = registerItem("phone", new Item(new FabricItemSettings()));
+    public static final Item ROLLINGPAPER = registerItem("rollingpaper", new Item(new FabricItemSettings()));
     public static final Item ENDERMANPURPLE = registerItem("endermanpurple", new Item(new FabricItemSettings()));
     public static final Item GREENRAVINE = registerItem("greenravine", new Item(new FabricItemSettings()));
     public static final Item SOURFUEL = registerItem("sourfuel", new Item(new FabricItemSettings()));
     public static final Item SHEEPVANILLA = registerItem("sheepvanilla", new Item(new FabricItemSettings()));
+    public static final Item OGJOINT = registerItem("ogjoint", new Item(new FabricItemSettings()));
+    public static final Item ENDERMANJOINT = registerItem("endermanjoint", new Item(new FabricItemSettings()));
+    public static final Item GREENRAVINEJOINT = registerItem("greenravinejoint", new Item(new FabricItemSettings()));
+    public static final Item SHEEPVANILLAJOINT = registerItem("sheepvanillajoint", new Item(new FabricItemSettings()));
+    public static final Item SOURJOINT = registerItem("sourjoint", new Item(new FabricItemSettings()));
+
+
+
+
+
 
     private static void addItemsToIngrediantItemGroup(FabricItemGroupEntries entries) {
 

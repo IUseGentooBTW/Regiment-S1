@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "miscellaneous",
+  "ingredients": [
+    {
+      "item": "regiments1core:sourjoint"
+    }
+  ],
+  "result": {
+    "item": "regiments1core:sourfuel",
+    "count": 1
+  }
+}

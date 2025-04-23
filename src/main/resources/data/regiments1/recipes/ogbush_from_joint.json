@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "miscellaneous",
+  "ingredients": [
+    {
+      "item": "regiments1core:ogjoint"
+    }
+  ],
+  "result": {
+    "item": "regiments1core:ogbush",
+    "count": 1
+  }
+}

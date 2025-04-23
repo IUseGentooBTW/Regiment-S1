@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "miscellaneous",
+  "ingredients": [
+    {
+      "item": "regiments1core:greenravine"
+    },
+    {
+      "item": "regiments1core:rollingpaper"
+    }
+  ],
+  "result": {
+    "item": "regiments1core:greenravinejoint",
+    "count": 1
+  }
+}
