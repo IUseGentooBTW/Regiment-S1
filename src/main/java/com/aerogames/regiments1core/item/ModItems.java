@@ -12,9 +12,12 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item OGBUSH = registerItem("ogbush", new Item(new FabricItemSettings()));
+    public static final Item METH = registerItem("meth", new Item(new FabricItemSettings()));
+    public static final Item PHONE = registerItem("phone", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngrediantItemGroup(FabricItemGroupEntries entries) {
-        entries.add(OGBUSH);
+
+
     }
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(RegimentS1Core.MOD_ID, name), item);

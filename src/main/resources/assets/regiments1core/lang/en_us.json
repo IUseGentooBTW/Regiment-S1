@@ -1,3 +1,10 @@
 {
-  "item.regiments1core.ogbush": "OG Bush"
+  "item.regiments1core.ogbush": "OG Bush",
+  "item.regiments1core.meth": "Meth",
+  "item.regiments1core.phone": "Android Lux",
+
+  "itemgroup.buds": "Buds",
+  "itemgroup.meth": "Meth",
+  "itemgroup.regiments1core": "Regiment S1 Core"
+
 }
