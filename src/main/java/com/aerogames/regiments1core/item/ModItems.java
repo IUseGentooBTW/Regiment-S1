@@ -17,6 +17,7 @@ public class ModItems {
     public static final Item ENDERMANPURPLE = registerItem("endermanpurple", new Item(new FabricItemSettings()));
     public static final Item GREENRAVINE = registerItem("greenravine", new Item(new FabricItemSettings()));
     public static final Item SOURFUEL = registerItem("sourfuel", new Item(new FabricItemSettings()));
+    public static final Item SHEEPVANILLA = registerItem("sheepvanilla", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngrediantItemGroup(FabricItemGroupEntries entries) {
 

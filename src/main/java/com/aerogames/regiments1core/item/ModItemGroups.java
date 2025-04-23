@@ -20,6 +20,7 @@ public class ModItemGroups {
                         entries.add(ModItems.ENDERMANPURPLE);
                         entries.add(ModItems.GREENRAVINE);
                         entries.add(ModItems.SOURFUEL);
+                        entries.add(ModItems.SHEEPVANILLA);
                     }).build());
     public static final ItemGroup METH = Registry.register(Registries.ITEM_GROUP,
             new Identifier(RegimentS1Core.MOD_ID, "meth"),
