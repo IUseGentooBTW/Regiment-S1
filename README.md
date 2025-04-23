@@ -13,7 +13,7 @@ Waiting for approval on Modrinth
 
   # How to download
 
-  **Visit Modrinth here to download Regiment S1:** [Regiment S1](https://modrinth.com/project/regimen-s1)
+  ~**Visit Modrinth here to download Regiment S1:** [Regiment S1](https://modrinth.com/project/regimen-s1)~
 
   # 📃 **Wiki** 📃
 
