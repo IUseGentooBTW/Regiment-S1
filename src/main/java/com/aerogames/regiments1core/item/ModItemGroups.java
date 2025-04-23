@@ -30,6 +30,7 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.PHONE)).entries((displayContext, entries) ->{
                         entries.add(ModItems.PHONE);
                         entries.add(ModBlocks.TESTBLOCK);
+                        entries.add(ModBlocks.TESTBENCH);
                     }).build());
     public static void registerItemGroups() {
         RegimentS1Core.LOGGER.info("Registering Mod Item Groups" + RegimentS1Core.MOD_ID);

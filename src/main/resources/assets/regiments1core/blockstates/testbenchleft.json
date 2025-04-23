@@ -1,0 +1,20 @@
+{
+  "variants": {
+
+  "facing=north": {
+    "model": "regiments1core:block/testbenchleft"
+  },
+  "facing=east": {
+    "model": "regiments1core:block/testbenchleft",
+    "y": 90
+  },
+  "facing=south": {
+    "model": "regiments1core:block/testbenchleft",
+    "y": 180
+  },
+  "facing=west": {
+    "model": "regiments1core:block/testbenchleft",
+    "y": 270
+    }
+  }
+}
