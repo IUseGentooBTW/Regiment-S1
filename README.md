@@ -19,3 +19,8 @@ Waiting for approval on Modrinth
   # 📃 **Wiki** 📃
 
   - [Wiki](https://regiment-s1.fandom.com/wiki/Regiment_S1_Wiki)
+ 
+
+
+ - This is still early development so expect a Alpha Release soon
+    *soon as in 2 months*
