@@ -24,3 +24,12 @@ Waiting for approval on Modrinth
 
  - This is still early development so expect a Alpha Release soon
     *soon as in 2 months*
+
+
+# Avaliable Strains
+
+- OG Bush
+- Sour Fuel
+- Enderman Purple
+- Green Ravine
+- Sheep Vanilla
