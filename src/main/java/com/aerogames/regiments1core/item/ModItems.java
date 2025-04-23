@@ -14,6 +14,9 @@ public class ModItems {
     public static final Item OGBUSH = registerItem("ogbush", new Item(new FabricItemSettings()));
     public static final Item METH = registerItem("meth", new Item(new FabricItemSettings()));
     public static final Item PHONE = registerItem("phone", new Item(new FabricItemSettings()));
+    public static final Item ENDERMANPURPLE = registerItem("endermanpurple", new Item(new FabricItemSettings()));
+    public static final Item GREENRAVINE = registerItem("greenravine", new Item(new FabricItemSettings()));
+    public static final Item SOURFUEL = registerItem("sourfuel", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngrediantItemGroup(FabricItemGroupEntries entries) {
 

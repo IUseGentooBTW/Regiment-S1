@@ -17,6 +17,9 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.buds"))
                     .icon(() -> new ItemStack(ModItems.OGBUSH)).entries((displayContext, entries) ->{
                         entries.add(ModItems.OGBUSH);
+                        entries.add(ModItems.ENDERMANPURPLE);
+                        entries.add(ModItems.GREENRAVINE);
+                        entries.add(ModItems.SOURFUEL);
                     }).build());
     public static final ItemGroup METH = Registry.register(Registries.ITEM_GROUP,
             new Identifier(RegimentS1Core.MOD_ID, "meth"),
