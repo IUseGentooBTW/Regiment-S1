@@ -35,6 +35,7 @@ public class ModItemGroups {
                         entries.add(ModItems.PHONE);
                         entries.add(ModBlocks.TESTBLOCK);
                         entries.add(ModBlocks.TESTBENCH);
+                        entries.add(ModBlocks.GROWTENT);
                     }).build());
     public static void registerItemGroups() {
         RegimentS1Core.LOGGER.info("Registering Mod Item Groups" + RegimentS1Core.MOD_ID);

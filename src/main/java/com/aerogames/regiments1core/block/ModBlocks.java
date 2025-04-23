@@ -31,6 +31,9 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block TESTBENCH = registerBlock("testbench",
             new Block(FabricBlockSettings.create().hardness(1.0f).sounds(BlockSoundGroup.METAL)));
+    public static final Block GROWTENT = registerBlock("growtent",
+            new Block(FabricBlockSettings.create().hardness(1.0f).sounds(BlockSoundGroup.METAL)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItems(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(RegimentS1Core.MOD_ID, name), block);
