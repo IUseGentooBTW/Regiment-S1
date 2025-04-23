@@ -1,6 +1,7 @@
 package com.aerogames.regiments1core.item;
 
 import com.aerogames.regiments1core.RegimentS1Core;
+import com.aerogames.regiments1core.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 
@@ -28,6 +29,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.regiments1core"))
                     .icon(() -> new ItemStack(ModItems.PHONE)).entries((displayContext, entries) ->{
                         entries.add(ModItems.PHONE);
+                        entries.add(ModBlocks.TESTBLOCK);
                     }).build());
     public static void registerItemGroups() {
         RegimentS1Core.LOGGER.info("Registering Mod Item Groups" + RegimentS1Core.MOD_ID);
