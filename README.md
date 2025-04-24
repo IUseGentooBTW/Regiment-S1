@@ -32,3 +32,13 @@ Waiting for approval on Modrinth
 - Enderman Purple
 - Green Ravine
 - Sheep Vanilla
+
+# *Work in progress*
+
+- Blaze Breath 🚧
+- Blueberry Bongfire 🚧
+- Cotton Candy Crumble 🚧
+- Cherry Chunk 🚧
+- Lemon Lava 🚧
+- Crude Citrus 🚧
+- Redstone Runtz 🚧
