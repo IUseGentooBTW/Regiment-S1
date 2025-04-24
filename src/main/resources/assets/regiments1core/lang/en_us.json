@@ -17,6 +17,12 @@
   "block.regiments1core.testblock": "Test Block",
   "block.regiments1core.growtent": "Grow Tent",
 
+  /*
+  "block.regiments1core.ogbush_seed": "OGBush Seed",
+  Add this when making crops - Aero
+  */
+
+
   "itemgroup.buds": "Buds",
   "itemgroup.meth": "Meth",
   "itemgroup.regiments1core": "Regiment S1 Core",
