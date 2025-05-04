@@ -41,8 +41,8 @@ With the release of new strains us developers have figured out that Fabric is **
 
 # *Work in progress*
 
-- Blaze Breath 🚧
-- Blueberry Bongfire 🚧
+- Blaze Breath 🚧   - mixing Blaze Powder and Sour Fuel
+- Blueberry Bongfire 🚧 
 - Cotton Candy Crumble 🚧
 - Cherry Chunk 🚧
 - Lemon Lava 🚧
