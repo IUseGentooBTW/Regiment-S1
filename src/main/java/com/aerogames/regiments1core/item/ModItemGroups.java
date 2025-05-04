@@ -32,6 +32,13 @@ public class ModItemGroups {
                                             entries.add(ModItems.SHEEPVANILLAJOINT);
                                             entries.add(ModItems.SOURJOINT);
                     }).build());
+    public static final ItemGroup SOILS = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(RegimentS1Core.MOD_ID, "soils"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.soils"))
+                    .icon(() -> new ItemStack(ModItems.KENNYSOIL)).entries((displayContext, entries) ->{
+                        entries.add(ModItems.KENNYSOIL);
+
+                    }).build());
     /*
     public static final ItemGroup SEEDS = Registry.register(Registries.ITEM_GROUP,
             new Identifier(RegimentS1Core.MOD_ID, "seeds"),

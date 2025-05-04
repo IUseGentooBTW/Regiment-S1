@@ -12,6 +12,7 @@
   "item.regiments1core.greenravinejoint": "Green Ravine Joint",
   "item.regiments1core.sheepvanillajoint": "Sheep Vanilla Joint",
   "item.regiments1core.sourjoint": "Sour Fuel Joint",
+  "item.regiments1core.kennysoil": "Kenny's Soil",
 
 
   "block.regiments1core.testblock": "Test Block",
@@ -27,6 +28,7 @@
   "itemgroup.buds": "Buds",
   "itemgroup.meth": "Meth",
   "itemgroup.regiments1core": "Regiment S1 Core",
-  "itemgroup.joints": "Joints"
+  "itemgroup.joints": "Joints",
+  "itemgroup.soils": "Soils"
 
 }
