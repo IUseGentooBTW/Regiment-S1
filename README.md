@@ -3,6 +3,12 @@ The source code for Regiment S1 Minecraft Mod
 
 Waiting for approval on Modrinth
 
+# Update 0.1 
+
+With the release of new strains us developers have figured out that Fabric is **pain**
+
+- Stay continued as we are trying our best to get a new commit out
+
 
 ### 🧑‍💻 Project Contributors
 - 🎨🔧 **Frontend and UI:** [@AeroXTX](https://github.com/AeroXTX)
