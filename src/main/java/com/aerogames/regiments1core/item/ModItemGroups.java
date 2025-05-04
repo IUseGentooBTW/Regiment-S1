@@ -57,6 +57,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.TESTBLOCK);
                         entries.add(ModBlocks.TESTBENCH);
                         entries.add(ModBlocks.GROWTENT);
+                        entries.add(ModBlocks.STORAGESHELF);
                     }).build());
     public static void registerItemGroups() {
         RegimentS1Core.LOGGER.info("Registering Mod Item Groups" + RegimentS1Core.MOD_ID);
