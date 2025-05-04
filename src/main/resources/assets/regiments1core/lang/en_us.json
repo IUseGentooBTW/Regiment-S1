@@ -4,7 +4,7 @@
   "item.regiments1core.greenravine": "Green Ravine",
   "item.regiments1core.sourfuel": "Sour Fuel",
   "item.regiments1core.sheepvanilla": "Sheep Vanilla",
-  "item.regiments1core.meth": "Meth",
+  "item.regiments1core.bluecandy": "Blue Candy",
   "item.regiments1core.phone": "Android Lux",
   "item.regiments1core.rollingpaper": "Rolling Paper",
   "item.regiments1core.ogjoint": "OG Bush Joint",
@@ -19,6 +19,7 @@
   "block.regiments1core.growtent": "Grow Tent",
   "block.regiments1core.storageshelf": "Storage Shelf",
   "block.regiments1core.woodentable": "Wooden Table",
+  "block.regiments1core.metaltable": "Metal Table",
 
   /*
   "block.regiments1core.ogbush_seed": "OGBush Seed",
@@ -27,7 +28,7 @@
 
 
   "itemgroup.buds": "Buds",
-  "itemgroup.meth": "Meth",
+  "itemgroup.candy": "Candy",
   "itemgroup.regiments1core": "Regiment S1 Core",
   "itemgroup.joints": "Joints",
   "itemgroup.soils": "Soils",

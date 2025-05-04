@@ -28,11 +28,13 @@ public class ModBlocks {
     public static final Block TESTBENCH = registerBlock("testbench",
             new Block(FabricBlockSettings.create().hardness(1.0f).sounds(BlockSoundGroup.METAL)));
     public static final Block GROWTENT = registerBlock("growtent",
-            new Block(FabricBlockSettings.create().hardness(1.0f).sounds(BlockSoundGroup.METAL)));
+            new Block(FabricBlockSettings.copyOf(Blocks.BLACK_WOOL).sounds(BlockSoundGroup.METAL).nonOpaque()));
     public static final Block STORAGESHELF = registerBlock("storageshelf",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
     public static final Block WOODENTABLE = registerBlock("woodentable",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+    public static final Block METALTABLE = registerBlock("metaltable",
+            new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque().sounds(BlockSoundGroup.METAL)));
 
 
     /*
