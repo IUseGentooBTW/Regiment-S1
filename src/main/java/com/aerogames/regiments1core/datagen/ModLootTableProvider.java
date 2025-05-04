@@ -1,15 +1,17 @@
-/*
 package com.aerogames.regiments1core.datagen;
 
-import net.minecraft.loot.function.ApplyBonusLootFunction;
-import net.minecraft.loot.function.SetCountLootFunction;
-import net.minecraft.loot.provider.number.UniformLootNumberProvider;
+import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
+import net.fabricmc.fabric.api.datagen.v1.provider.FabricBlockLootTableProvider;
+
+public class ModLootTableProvider extends FabricBlockLootTableProvider {
+
+
+    protected ModLootTableProvider(FabricDataOutput dataOutput) {
+        super(dataOutput);
+    }
+
+    @Override
+    public void generate() {
+
+    }
 }
-
-@Override
-public void generate() {
-
-}
-
-
- */
