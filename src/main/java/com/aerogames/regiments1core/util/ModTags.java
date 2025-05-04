@@ -10,7 +10,8 @@ import net.minecraft.util.Identifier;
 
 public class ModTags {
     public static class Blocks {
-
+        public static final TagKey<Block> AXE =
+                createTag("axe");
         private static TagKey<Block> createTag(String name) {
             return TagKey.of(RegistryKeys.BLOCK, new Identifier(RegimentS1Core.MOD_ID, name));
         }
