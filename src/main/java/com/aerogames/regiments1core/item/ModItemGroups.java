@@ -49,11 +49,11 @@ public class ModItemGroups {
 
      */
 
-    public static final ItemGroup METH = Registry.register(Registries.ITEM_GROUP,
-            new Identifier(RegimentS1Core.MOD_ID, "meth"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.meth"))
-                    .icon(() -> new ItemStack(ModItems.METH)).entries((displayContext, entries) ->{
-                        entries.add(ModItems.METH);
+    public static final ItemGroup CANDY = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(RegimentS1Core.MOD_ID, "candy"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.candy"))
+                    .icon(() -> new ItemStack(ModItems.BLUECANDY)).entries((displayContext, entries) ->{
+                        entries.add(ModItems.BLUECANDY);
                     }).build());
     public static final ItemGroup REGIMENTS1CORE = Registry.register(Registries.ITEM_GROUP,
             new Identifier(RegimentS1Core.MOD_ID, "regiments1core"),
@@ -70,6 +70,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.furniture"))
                     .icon(() -> new ItemStack(ModBlocks.WOODENTABLE)).entries((displayContext, entries) ->{
                         entries.add(ModBlocks.WOODENTABLE);
+                        entries.add(ModBlocks.METALTABLE);
                         entries.add(ModBlocks.STORAGESHELF);
                         entries.add(ModBlocks.GROWTENT);
 
