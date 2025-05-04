@@ -63,9 +63,18 @@ public class ModItemGroups {
                         entries.add(ModItems.ROLLINGPAPER);
                         entries.add(ModBlocks.TESTBLOCK);
                         entries.add(ModBlocks.TESTBENCH);
-                        entries.add(ModBlocks.GROWTENT);
-                        entries.add(ModBlocks.STORAGESHELF);
+
                     }).build());
+    public static final ItemGroup FURNITURE = Registry.register(Registries.ITEM_GROUP,
+            new Identifier(RegimentS1Core.MOD_ID, "furniture"),
+            FabricItemGroup.builder().displayName(Text.translatable("itemgroup.furniture"))
+                    .icon(() -> new ItemStack(ModBlocks.WOODENTABLE)).entries((displayContext, entries) ->{
+                        entries.add(ModBlocks.WOODENTABLE);
+                        entries.add(ModBlocks.STORAGESHELF);
+                        entries.add(ModBlocks.GROWTENT);
+
+                    }).build());
+
     public static void registerItemGroups() {
         RegimentS1Core.LOGGER.info("Registering Mod Item Groups" + RegimentS1Core.MOD_ID);
     }

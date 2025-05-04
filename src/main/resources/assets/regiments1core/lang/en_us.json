@@ -18,6 +18,7 @@
   "block.regiments1core.testblock": "Test Block",
   "block.regiments1core.growtent": "Grow Tent",
   "block.regiments1core.storageshelf": "Storage Shelf",
+  "block.regiments1core.woodentable": "Wooden Table",
 
   /*
   "block.regiments1core.ogbush_seed": "OGBush Seed",
@@ -29,6 +30,7 @@
   "itemgroup.meth": "Meth",
   "itemgroup.regiments1core": "Regiment S1 Core",
   "itemgroup.joints": "Joints",
-  "itemgroup.soils": "Soils"
+  "itemgroup.soils": "Soils",
+  "itemgroup.furniture": "Furniture"
 
 }

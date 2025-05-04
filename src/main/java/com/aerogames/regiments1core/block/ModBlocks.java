@@ -30,6 +30,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.create().hardness(1.0f).sounds(BlockSoundGroup.METAL)));
     public static final Block STORAGESHELF = registerBlock("storageshelf",
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
+    public static final Block WOODENTABLE = registerBlock("woodentable",
+            new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
 
 
     /*

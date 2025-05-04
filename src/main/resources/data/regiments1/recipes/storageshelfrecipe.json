@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "2 2",
+    "232",
+    "2 2"
+  ],
+  "key": {
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "minecraft:oak_planks"
+    }
+  },
+  "result": {
+    "item": "regiments1core:storageshelf"
+  }
+}

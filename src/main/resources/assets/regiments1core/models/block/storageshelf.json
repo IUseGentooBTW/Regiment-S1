@@ -1,9 +1,10 @@
 {
-	"credit": "Made with Blockbench",
+	"credit": "Made by Aero",
 	"texture_size": [16, 16],
 	"textures": {
 		"1": "regiments1core:block/oakmod",
-		"3": "regiments1core:block/metal"
+		"3": "regiments1core:block/metal",
+		"particle": "regiments1core:block/metal"
 	},
 	"elements": [
 		{
