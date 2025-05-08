@@ -31,7 +31,7 @@ public class OvenBlockEntity extends BlockEntity implements ExtendedScreenHandle
 
     protected final PropertyDelegate propertyDelegate;
     private int progress = 0;
-    private int maxProgress = 100;
+    private int maxProgress = 1024;
     public OvenBlockEntity(BlockPos pos, BlockState state) {
         super(ModBlockEntities.OVEN_BLOCK_ENTITY, pos, state);
         this.propertyDelegate = new PropertyDelegate() {
@@ -90,21 +90,25 @@ public class OvenBlockEntity extends BlockEntity implements ExtendedScreenHandle
     }
 
     public void tick(World world, BlockPos pos, BlockState state1) {
-        if(!world.isClient()) {
+        if(world.isClient()) {
             return;
         }
         if(isOutputSlotEmptyOrRecivable()) {
             if (this.hasRecipe()) {
                 this.increaseCraftProgress();
                 markDirty(world, pos, state1);
-            }
-            if (hasCraftingFinished()) {
-                this.craftItem();
-                this.resetProgress();
-            } else {
+
+                if (hasCraftingFinished()) {
+                    this.craftItem();
+                    this.resetProgress();
+                }
+
+            }else {
                 this.resetProgress();
 
             }
+
+
         } else {
             this.resetProgress();
             markDirty(world, pos, state1);

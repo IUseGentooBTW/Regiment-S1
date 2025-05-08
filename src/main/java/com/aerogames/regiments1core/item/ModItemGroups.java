@@ -54,6 +54,8 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.candy"))
                     .icon(() -> new ItemStack(ModItems.BLUECANDY)).entries((displayContext, entries) ->{
                         entries.add(ModItems.BLUECANDY);
+                        entries.add(ModItems.LIQUIDBLUECRYSTAL);
+                        entries.add(ModItems.HARDENEDBLUECRYSTAL);
                     }).build());
     public static final ItemGroup REGIMENTS1CORE = Registry.register(Registries.ITEM_GROUP,
             new Identifier(RegimentS1Core.MOD_ID, "regiments1core"),

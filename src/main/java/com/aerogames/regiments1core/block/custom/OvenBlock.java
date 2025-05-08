@@ -69,6 +69,6 @@ public class OvenBlock extends BlockWithEntity implements BlockEntityProvider {
     @Override
     public <T extends BlockEntity> BlockEntityTicker<T> getTicker(World world, BlockState state, BlockEntityType<T> type) {
         return checkType(type, ModBlockEntities.OVEN_BLOCK_ENTITY,
-                ((world1, pos, state1, blockEntity) -> blockEntity.tick(world1, pos, state1)));
+                (world1, pos, state1, blockEntity) -> blockEntity.tick(world1, pos, state1));
     }
 }

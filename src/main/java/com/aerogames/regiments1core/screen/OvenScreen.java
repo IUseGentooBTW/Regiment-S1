@@ -38,13 +38,13 @@ public class OvenScreen extends HandledScreen<OvenScreenHandler> {
 
     private void renderProgressArrow(DrawContext context, int x, int y) {
         if(handler.isCrafting()){
-            context.drawTexture(TEXTURE, x + 85, y + 30, 167, 0, 8, handler.getScaledProgress());
+            context.drawTexture(TEXTURE, x + 85, y + 30, 176, 2, 8, handler.getScaledProgress());
         }
     }
 
     @Override
     public void render(DrawContext context, int mouseX, int mouseY, float delta) {
-        renderBackground(context);
+
         super.render(context, mouseX, mouseY, delta);
         drawMouseoverTooltip(context, mouseX, mouseY);
 
