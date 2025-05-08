@@ -73,6 +73,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.METALTABLE);
                         entries.add(ModBlocks.STORAGESHELF);
                         entries.add(ModBlocks.GROWTENT);
+                        entries.add(ModBlocks.OVENBLOCK);
 
                     }).build());
 

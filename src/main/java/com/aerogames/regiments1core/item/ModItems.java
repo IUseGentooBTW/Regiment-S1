@@ -27,6 +27,8 @@ public class ModItems {
     public static final Item SHEEPVANILLAJOINT = registerItem("sheepvanillajoint", new Item(new FabricItemSettings()));
     public static final Item SOURJOINT = registerItem("sourjoint", new Item(new FabricItemSettings()));
     public static final Item KENNYSOIL = registerItem("kennysoil", new Item(new FabricItemSettings()));
+    public static final Item LIQUIDBLUECRYSTAL = registerItem("liquidbluecrystal", new Item(new FabricItemSettings()));
+    public static final Item HARDENEDBLUECRYSTAL = registerItem("hardenedbluecrystal", new Item(new FabricItemSettings()));
 
 /*
     public static final Item OGBUSH_SEED = registerItem("ogbush_seed",

@@ -4,6 +4,7 @@ import com.aerogames.regiments1core.RegimentS1Core;
 /*
 import com.aerogames.regiments1core.block.custom.ogbush_crop;
 */
+import com.aerogames.regiments1core.block.custom.OvenBlock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.BedBlock;
@@ -35,6 +36,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS).nonOpaque()));
     public static final Block METALTABLE = registerBlock("metaltable",
             new Block(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque().sounds(BlockSoundGroup.METAL)));
+    public static final Block OVENBLOCK = registerBlock("ovenblock",
+            new OvenBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
 
     /*
