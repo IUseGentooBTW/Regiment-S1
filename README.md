@@ -1,3 +1,12 @@
+# This Project is currently on hold and development has stopped
+
+
+
+
+
+
+
+
 # Regiment-S1
 The source code for Regiment S1 Minecraft Mod
 
@@ -47,4 +56,4 @@ With the release of new strains us developers have figured out that Fabric is **
 - Cherry Chunk 🚧
 - Lemon Lava 🚧
 - Crude Citrus 🚧
-- Redstone Runtz 🚧
+- Redstone Runtz 🚧~~
